@@ -1,0 +1,67 @@
+export const Lists = [
+  {
+    name: "EssayWriter",
+    id: "EssayWriter",
+    description: "Let AI do the writing for you!",
+    image: "https://www.svgrepo.com/show/501551/essay.svg",
+    prompt: `I want you to act as an essay writer. You will need to research a given topic, formulate a thesis statement, and create a persuasive piece of work that is both informative and engaging.do not separate the essay by Thesis Statement,Introduction,Body Paragraph 1,etc.start with creating title. My first request is I need help writing a persuasive essay that contain 500  - 1000 words about`,
+    option: {
+      model: "text-davinci-003",
+      temperature: 0,
+      max_tokens: 1000,
+      top_p: 1,
+      frequency_penalty: 0.0,
+      presence_penalty: 0,
+    },
+  },
+  {
+    name: "Write code",
+    id: "CodeGenerator",
+    image: "https://www.svgrepo.com/show/497578/teacher.svg",
+    option: {
+      model: "text-davinci-003",
+      temperature: 0,
+      max_tokens: 1000,
+      top_p: 1,
+      frequency_penalty: 0.0,
+      presence_penalty: 0,
+    },
+    description: "Create Code Faster and Easier with Code Generator AI",
+  },
+  {
+    name: "Video Script Writer",
+    id: "VideoScript",
+    image: "https://www.svgrepo.com/show/513023/video-round-961.svg",
+    description: "The ultimate cooking assistant powered by AI",
+  },
+  {
+    name: "Summarization",
+    id: "q&a",
+    image: "https://www.svgrepo.com/show/497578/teacher.svg",
+    description: "This is the description of the list",
+  },
+  {
+    name: "Q&A in other languages",
+    id: "q&a",
+    image: "https://www.svgrepo.com/show/497578/teacher.svg",
+    description: "This is the description of the list",
+  },
+  {
+    name: "Cooking Gide",
+    id: "q&a",
+    image: "https://www.svgrepo.com/show/497578/teacher.svg",
+    description: "This is the description of the list",
+  },
+  {
+    name: "Doctor GPT",
+    id: "q&a",
+    image: "https://www.svgrepo.com/show/497578/teacher.svg",
+    description: "This is the description of the list",
+  },
+  {
+    name: "Change code to another languages",
+    id: "q&a",
+    image: "https://www.svgrepo.com/show/497578/teacher.svg",
+    description: "This is the description of the list",
+  },
+];
