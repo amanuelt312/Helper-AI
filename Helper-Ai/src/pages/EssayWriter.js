@@ -12,7 +12,7 @@ export default function EssayWriter() {
   const [result, setResult] = useState("");
   const [pinput, setPinput] = useState("");
   const configuration = new Configuration({
-    apiKey: "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",
+    apiKey: "APIKey",
   });
   const openai = new OpenAIApi(configuration);
   const option = location.state.item.option;
