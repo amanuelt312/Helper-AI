@@ -12,7 +12,7 @@ export default function Codegen() {
   const [pinput, setPinput] = useState("");
   const [planguage, setPlanguage] = useState("");
   const configuration = new Configuration({
-    apiKey: "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",
+    apiKey: "APIKey",
   });
   const openai = new OpenAIApi(configuration);
   const location = useLocation();
